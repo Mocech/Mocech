@@ -1,107 +1,123 @@
+<div align="center">
+
 # Moses Mulwa Francis
 
 **Backend Developer · Python · Django · REST APIs · Linux Infrastructure**
 
-Based in Nairobi, Kenya. I build and ship production web applications — not just demos.
-Currently operating [EasyHostels](https://easyhostels.livify.co.ke), a live student housing marketplace with 150+ users, on a self-managed Ubuntu VPS.
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0A66C2?style=flat-square&logo=google-chrome&logoColor=white)](https://mosesmulwa-portfolio.netlify.app)
+[![Email](https://img.shields.io/badge/Email-mosesfrancis018@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mosesfrancis018@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Moses%20Mulwa%20Francis-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/moses-mulwa-francis)
+
+I build and ship production web applications — not just demos.
+Currently operating **[EasyHostels](https://easyhostels.livify.co.ke)**, a live student housing platform with **150+ users**, on a Ubuntu VPS I configure and manage myself.
+
+**Available for work · Nairobi, Kenya**
+
+</div>
 
 ---
 
-## What I work with
+## 🚀 Shipped & Live Projects
 
-**Backend**
-Python · Django · Django REST Framework · Flask · Celery
+### 🏠 [EasyHostels](https://github.com/Mocech/Hostels_Find) — Student Housing Marketplace
+> **Live · 10+ landlords · 150+ students · production server**
 
-**Databases**
-MySQL · PostgreSQL · Django ORM · schema design · query optimisation
+A housing platform where students browse listings and landlords post properties. Built from scratch — I manage the full server stack: Ubuntu VPS, Nginx, Gunicorn, Cloudflare DNS and SSL.
 
-**Infrastructure**
-Ubuntu Linux · Nginx · Gunicorn · Cloudflare (DNS · SSL) · Docker · Docker Compose · systemd · SSH
+`Django` `MySQL` `Tailwind CSS` `Celery` `Nginx` `Gunicorn` `Cloudflare` `Google OAuth` `Ubuntu VPS`
 
-**Auth & Security**
-JWT · Google OAuth 2.0 (django-allauth) · RBAC · email token verification
-
-**AI & APIs**
-Groq API · LLaMA 3.3 · OCR (pytesseract · pypdf) · RESTful API design
-
-**Frontend (supporting role)**
-HTML5 · CSS3 · Tailwind CSS · JavaScript · Fetch API
-
-**Tools**
-Git · GitHub · pytest · cPanel · Figma · Adobe Photoshop
+**[🌐 Live site](https://easyhostels.livify.co.ke)** · **[📂 Code](https://github.com/Mocech/Hostels_Find)**
 
 ---
 
-## Projects I have shipped
+### 🌾 [AgriMarket System](https://github.com/Mocech/AgriMarket_System) — Crop Price Forecasting
+> **ML-powered · real KAMIS data · built for Kenyan farmers**
 
-### 🏠 EasyHostels — Student Housing Marketplace
-> Live platform · 10+ landlords · 150+ students · self-managed VPS
+Trained a forecasting model using Facebook Prophet on crop price data from Kenya's KAMIS government system. Predicts future crop prices and recommends what farmers should grow based on projected market conditions.
 
-A housing marketplace where students browse listings and landlords post properties.
-I built it from scratch and run the full server stack myself: Ubuntu VPS, Nginx, Gunicorn, Cloudflare DNS and SSL.
+`Python` `Django` `Prophet` `scikit-learn` `MySQL` `KAMIS API` `Data Analysis`
 
-**Stack:** Django · MySQL · Tailwind CSS · Celery · Nginx · Gunicorn · Cloudflare
-🔗 [easyhostels.livify.co.ke](https://easyhostels.livify.co.ke) · [Repository](https://github.com/Mocech/easyhostels)
+**[📂 Code](https://github.com/Mocech/AgriMarket_System)**
 
 ---
 
-### 🌾 Crop Price Prediction Tool — AgriAI Kenya
-> Final year project · real KAMIS data · ML-powered crop recommendations
+### 🧾 [InvoiceQ](https://github.com/Mocech/InvoiceQ) — AI Invoice Processing
+> **Client project · delivered solo · AI-powered extraction**
 
-Trained a machine learning model on Kenyan crop price data from KAMIS (Kenya Agricultural Market Information System) to predict crop prices and recommend what farmers should grow based on projected market conditions.
+Backend that uses the Groq API (LLaMA 3.3) to extract data from uploaded PDF invoices — both scanned and digital — into validated, structured JSON. Human-in-the-loop review step built in for financial accuracy.
 
-**Stack:** Python · scikit-learn · Flask · MySQL · KAMIS API
-🔗 [Repository](https://github.com/Mocech/agri-ai-kenya)
+`Django` `DRF` `MySQL` `Celery` `Groq API` `LLaMA 3.3` `OCR` `JWT` `Docker`
 
----
-
-### 🧾 InvoiceIQ — AI Invoice Processing Platform
-> Client project · delivered solo · production deployment
-
-An invoice automation backend that uses the Groq API (LLaMA 3.3) to extract data from uploaded PDFs — both scanned and digital — into structured JSON. Built with a Human-in-the-Loop review step for financial accuracy.
-
-**Stack:** Django · DRF · MySQL · Celery · Groq API · OCR · JWT · Docker
+**[📂 Code](https://github.com/Mocech/InvoiceQ)**
 
 ---
 
-### 📋 University of Embu CU — Evaluation & Feedback System
-> Live system · 1,000+ users · zero-downtime deployment
+### 📋 [CU Evaluation System](https://github.com/Mocech/CUEvaluation) — Feedback Platform
+> **Live · 1,000+ users · zero-downtime deployment**
 
-Digital feedback platform for the University of Embu Christian Union. The challenge: integrating a new Django module into a running PHP/Laravel site on cPanel without taking the live site down.
+Digital feedback platform for the University of Embu Christian Union, replacing a manual paper process. Integrated a new Django module into a running PHP/Laravel site on cPanel without taking the live site down.
 
-**Stack:** Django · MySQL · PHP/Laravel integration · cPanel
-🔗 [uoemcu.co.ke](https://uoemcu.co.ke/evaluation2024)
+`Django` `MySQL` `PHP/Laravel integration` `cPanel` `HTML` `CSS` `JavaScript`
 
----
-
-### 🔍 Bible Study Finder
-> Serverless · live data · built for a real community
-
-Lightweight search tool using the Google Sheets API as a live data source. Non-technical administrators update a spreadsheet — students find their group instantly. No backend, no maintenance overhead.
-
-**Stack:** HTML · CSS · JavaScript · Google Sheets API
-🔗 [Live tool](https://uoem-cu-biblestudy.netlify.app)
+**[🌐 Live site](https://uoemcu.co.ke/evaluation2024)** · **[📂 Code](https://github.com/Mocech/CUEvaluation)**
 
 ---
 
-## Currently learning
+### 🔍 [Bible Study Search App](https://github.com/Mocech/UoEm_cu_bible_study_search_app) — Serverless Community Tool
+> **Live · Google Sheets as database · zero maintenance**
 
-- Django REST Framework — serializers done, working through viewsets and authentication
-- Docker Compose — currently containerising the CU Management System
-- CI/CD pipelines with GitHub Actions
+Search tool for CU members to find their Bible study group instantly. Uses Google Sheets as a live data source — non-technical admins update the sheet, no backend or database needed.
 
----
+`JavaScript` `Google Sheets API` `HTML` `CSS`
 
-## Certifications
-
-- AI Essentials & Generative AI for Software Developers — Moringa School, 2025
-- Python & Django Technical Workshops — ongoing
+**[🌐 Live tool](https://uoem-cu-biblestudy.netlify.app)** · **[📂 Code](https://github.com/Mocech/UoEm_cu_bible_study_search_app)**
 
 ---
 
-## Get in touch
+### 🛒 [E-Shop](https://github.com/Mocech/E-shop) — E-Commerce Platform
+> **Full-stack Django · AJAX · Fetch API**
 
-📧 mosesfrancis018@gmail.com
-🌐 [mosesmulwa-portfolio.netlify.app](https://mosesmulwa-portfolio.netlify.app)
-💼 [LinkedIn — Moses Mulwa Francis](https://linkedin.com/in/moses-mulwa-francis)
-📍 Nairobi, Kenya · Available immediately
+E-commerce platform with product listings, cart management, and order processing. Demonstrates Django ORM, AJAX-driven interactions, and frontend-backend integration.
+
+`Django` `Python` `MySQL` `JavaScript` `Fetch API` `HTML` `CSS`
+
+**[📂 Code](https://github.com/Mocech/E-shop)**
+
+---
+
+### 🔐 [Full Auth System](https://github.com/Mocech/Full_Auth_system_google_login-signup) — Authentication Module
+> **Google OAuth · email verification · reusable**
+
+Complete Django authentication system with Google OAuth login/signup, email token verification, and secure password reset. Extracted as a reusable module.
+
+`Django` `Google OAuth` `django-allauth` `JWT` `MySQL`
+
+**[📂 Code](https://github.com/Mocech/Full_Auth_system_google_login-signup)**
+
+---
+
+## 🛠 Tech Stack
+
+| Area | Tools |
+|---|---|
+| **Languages** | Python · JavaScript (ES6+) · SQL · Bash |
+| **Backend** | Django · Django REST Framework · Flask · Celery |
+| **Databases** | MySQL · PostgreSQL · Django ORM · query optimisation |
+| **Infrastructure** | Ubuntu Linux · Nginx · Gunicorn · Cloudflare · systemd · SSH |
+| **Auth & Security** | JWT · Google OAuth 2.0 · RBAC · email token verification |
+| **Containers** | Docker · Docker Compose *(beginner — actively using)* |
+| **AI & APIs** | Groq API · LLaMA 3.3 · OCR · Prophet · RESTful API design |
+| **Frontend** | HTML5 · CSS3 · Tailwind CSS · JavaScript Fetch API · Figma |
+| **Design** | Adobe Photoshop · Photopea · Figma |
+| **Learning now** | Django REST Framework · GitHub Actions · CI/CD |
+
+---
+
+## 📌 Quick Facts
+
+- 🎓 BSc Information Technology — University of Embu, Kenya *(2026)*
+- 🏗️ I configure and run production servers, not just local dev environments
+- 🌾 Built tools solving real problems in Kenya — housing, agriculture, education
+- 🤝 Available immediately for junior backend, full-stack, or DevOps roles
+
+> *Need access to a private or collaborative repo? Reach out — I can grant it directly.*
