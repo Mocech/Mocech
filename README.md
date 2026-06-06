@@ -2,7 +2,7 @@
 
 # Moses Mulwa Francis
 
-**Full-Stack Developer · Backend-Focused · Python · Django · REST APIs · Linux Infrastructure**
+**Full-Stack Developer · Backend-Focused · Python · Django · REST APIs**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0A66C2?style=flat-square&logo=google-chrome&logoColor=white)](https://mosesmulwa-portfolio.netlify.app)
 [![Email](https://img.shields.io/badge/Email-mosesfrancis018@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mosesfrancis018@gmail.com)
@@ -18,86 +18,86 @@ Currently co-running **[EasyHostels](https://easyhostels.livify.co.ke)**, a live
 
 ---
 
-## 🚀 Shipped & Live Projects
+## Shipped & Live Projects
 
-### 🏠 [EasyHostels](https://github.com/Mocech/Hostels_Find) — Student Housing Marketplace
+### [EasyHostels](https://github.com/Mocech/Hostels_Find) — Student Housing Marketplace
 > **Live · 10+ landlords · 150+ students · production server**
 
 A housing platform where students browse listings and landlords post properties. Co-built with a partner — my contributions: full authentication system, Gmail API, Google OAuth, M-Pesa integration, and the landlord-student messaging system. Full server stack managed on Ubuntu VPS.
 
 `Django` `MySQL` `Tailwind CSS` `Celery` `Nginx` `Gunicorn` `Cloudflare` `Google OAuth` `M-Pesa API` `Gmail API`
 
-**[🌐 Live site](https://easyhostels.livify.co.ke)** · **[📂 Code](https://github.com/Mocech/Hostels_Find)**
+**[Live site](https://easyhostels.livify.co.ke)** · **[Code](https://github.com/Mocech/Hostels_Find)**
 
 ---
 
-### 🌾 [AgriMarket System](https://github.com/Mocech/AgriMarket_System) — Crop Price Forecasting
+### [AgriMarket System](https://github.com/Mocech/AgriMarket_System) — Crop Price Forecasting
 > **ML-powered · real KAMIS data · built for Kenyan farmers**
 
 Trained a forecasting model using Facebook Prophet on crop price data from Kenya's KAMIS government system. Predicts future crop prices and recommends what farmers should grow based on projected market conditions.
 
 `Python` `Django` `Prophet` `scikit-learn` `MySQL` `KAMIS API` `Data Analysis`
 
-**[📂 Code](https://github.com/Mocech/AgriMarket_System)**
+**[Code](https://github.com/Mocech/AgriMarket_System)**
 
 ---
 
-### 🧾 [InvoiceQ](https://github.com/Mocech/InvoiceQ) — AI Invoice Processing
+### [InvoiceQ](https://github.com/Mocech/InvoiceQ) — AI Invoice Processing
 > **Client project · delivered solo · AI-powered extraction**
 
 Full-stack invoice automation platform — Django backend with DRF, plus a clean frontend dashboard for uploading invoices and reviewing extracted data. AI pipeline uses Groq API (LLaMA 3.3) to parse PDF invoices into structured JSON.
 
 `Django` `DRF` `MySQL` `Celery` `Groq API` `LLaMA 3.3` `OCR` `JWT` `Docker` `HTML` `CSS` `JavaScript`
 
-**[📂 Code](https://github.com/Mocech/InvoiceQ)**
+**[Code](https://github.com/Mocech/InvoiceQ)**
 
 ---
 
-### 📋 [CU Evaluation System](https://github.com/Mocech/CUEvaluation) — Feedback Platform
+### [CU Evaluation System](https://github.com/Mocech/CUEvaluation) — Feedback Platform
 > **Live · 1,000+ users · zero-downtime deployment**
 
 Digital feedback platform replacing a manual paper process. Built the full frontend interface — forms, results display, responsive layout — alongside the Django backend. Integrated into a running PHP/Laravel site on cPanel with zero downtime.
 
 `Django` `MySQL` `PHP/Laravel integration` `cPanel` `HTML` `CSS` `JavaScript`
 
-**[🌐 Live site](https://uoemcu.co.ke/evaluation2024)** · **[📂 Code](https://github.com/Mocech/CUEvaluation)**
+**[Live site](https://uoemcu.co.ke/evaluation2024)** · **[Code](https://github.com/Mocech/CUEvaluation)**
 
 ---
 
-### 🔍 [Bible Study Search App](https://github.com/Mocech/UoEm_cu_bible_study_search_app) — Serverless Community Tool
+### [Bible Study Search App](https://github.com/Mocech/UoEm_cu_bible_study_search_app) — Serverless Community Tool
 > **Live · Google Sheets as database · zero maintenance**
 
 A pure frontend project — clean, responsive UI built with HTML, CSS, and JavaScript pulling live data from Google Sheets. Non-technical admins update the sheet; students find their group instantly.
 
 `JavaScript` `Google Sheets API` `HTML` `CSS` `Responsive Design`
 
-**[🌐 Live tool](https://uoem-cu-biblestudy.netlify.app)** · **[📂 Code](https://github.com/Mocech/UoEm_cu_bible_study_search_app)**
+**[Live tool](https://uoem-cu-biblestudy.netlify.app)** · **[Code](https://github.com/Mocech/UoEm_cu_bible_study_search_app)**
 
 ---
 
-### 🛒 [E-Shop](https://github.com/Mocech/E-shop) — E-Commerce Platform
+### [E-Shop](https://github.com/Mocech/E-shop) — E-Commerce Platform
 > **Full-stack Django · AJAX · Fetch API**
 
 Full-stack e-commerce platform — designed the UI in Figma, built the frontend with HTML/CSS/JavaScript and AJAX-driven cart interactions, and connected it to a Django/MySQL backend.
 
 `Django` `Python` `MySQL` `JavaScript` `Fetch API` `HTML` `CSS` `Figma`
 
-**[📂 Code](https://github.com/Mocech/E-shop)**
+**[Code](https://github.com/Mocech/E-shop)**
 
 ---
 
-### 🔐 [Full Auth System](https://github.com/Mocech/Full_Auth_system_google_login-signup) — Authentication Module
+### [Full Auth System](https://github.com/Mocech/Full_Auth_system_google_login-signup) — Authentication Module
 > **Google OAuth · email verification · reusable**
 
 Complete Django authentication system with Google OAuth, email token verification, and secure password reset — with fully designed login, signup, and reset pages.
 
 `Django` `Google OAuth` `django-allauth` `JWT` `MySQL` `HTML` `CSS`
 
-**[📂 Code](https://github.com/Mocech/Full_Auth_system_google_login-signup)**
+**[Code](https://github.com/Mocech/Full_Auth_system_google_login-signup)**
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Area | Tools |
 |---|---|
@@ -115,12 +115,12 @@ Complete Django authentication system with Google OAuth, email token verificatio
 
 ---
 
-## 📌 Quick Facts
+## Quick Facts
 
-- 🎓 BSc Information Technology — University of Embu, Kenya *(2026)*
-- 🎨 I design in Figma and build the frontend too — not just APIs
-- 🏗️ I configure and run production servers, not just local dev environments
-- 🌍 Built tools solving real problems in Kenya — housing, agriculture, education
-- 🤝 Available immediately for full-stack, backend, or junior developer roles
+- BSc Information Technology — University of Embu, Kenya *(2026)*
+- I design in Figma and build the frontend too — not just APIs
+- ️ I configure and run production servers, not just local dev environments
+- Built tools solving real problems in Kenya — housing, agriculture, education
+- Available immediately for full-stack, backend, or junior developer roles
 
 > *Need access to a private or collaborative repo? Reach out — I can grant it directly.*
